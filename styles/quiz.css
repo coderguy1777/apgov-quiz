@@ -1,0 +1,53 @@
+body {
+    background-color: green;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.container-cover {
+    display: flex;
+    align-self: center;
+}
+
+.quiz-label {
+    font-family: 'Roboto', sans-serif;
+    margin-top: -50px;
+}
+
+.site-front {
+    display: flex;
+    flex-direction: column;
+    min-width: 1000px;
+    min-height: 500px;
+    font-family: 'Roboto', sans-serif;
+    -webkit-text-fill-color: #80C991;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz-start {
+    border-color: transparent;
+    outline: none;
+    border-radius: 2px;
+    min-width: 100px;
+    min-height: 50px;
+    font-size: 25px;
+    background-color: black;
+    -webkit-text-fill-color: white;
+}
+
+.quiz-start:hover {
+    background-color: white;
+    -webkit-text-fill-color: black;
+}
+
+.madison-image {
+    float: left;
+    margin-top: -100px;
+}
+
+.mcculloch-image {
+    float: right;
+    margin-top: -100px;
+}
