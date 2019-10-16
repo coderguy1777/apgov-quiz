@@ -2,15 +2,27 @@
 <html lang="en-us">
     <head>
         <meta charset="utf-8">
-        <title>Question 1!</title>
-        <style>
-            body {
-                background-color: navajowhite;
-            }
-        
-        </style>
+        <meta content="og:description" content="Question 1">
+        <title>Question 1</title>
+        <link rel="stylesheet" type="text/css" href="styles/question_style.css">
     </head>
-    <body>
-        
+    <body onload='set_correct_val(1, "q_2.html")'>
+        <div class="container-cover">
+            <h1 class="question_title">Question 1</h1>
+        </div>
+        <div class="container-cover">
+            <div class="question_details" id="q_stuff">
+                In what year did <i>&nbspMcCulloch V. Maryland</i> take place?
+            </div>
+        </div>
+        <div class="container-cover">
+            <div class="option_container">
+                <button class="option_button" id="choice-a">A. In 1821</button>
+                <button class="option_button" id="choice-b">B. In 1819</button>
+                <button class="option_button" id="choice-c">C. In 1804</button>
+                <button class="option_button" id="choice-d">D. In 1807</button>
+            </div>
+        </div>
+        <script src="quiz-scripts/score.js"></script>
     </body>
 </html>
