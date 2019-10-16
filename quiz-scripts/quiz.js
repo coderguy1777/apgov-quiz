@@ -4,4 +4,5 @@ let score_val = 0;
 
 start_button.addEventListener('click', () => {
     window.open('q_1.html', '_self', false);
+    localStorage.setItem("current_page", score_val);
 });
