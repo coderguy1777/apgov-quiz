@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta content="og:description" content="Final Score">
+        <link rel="stylesheet" type="text/css" href="styles/results.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+        <title>Your Score!</title>
+    </head>
+    <body onload="get_score()">
+        <div class="container-cover">
+            <div class="score-details">
+                <div class="score_title">Your results</div>
+                <div class="score_info" id="player_score"></div>
+                <div class="score_message" id="player_message"></div>
+                <div class="button-container">
+                    <button class="yes_button" id="button-yes">Yes</button>
+                    <button class="no_button" id="button-no">No</button>
+                </div>
+            </div>
+        </div>
+        <script src="quiz-scripts/results.js"></script>
+    </body>
+</html>

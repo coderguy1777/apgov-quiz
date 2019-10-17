@@ -1,0 +1,101 @@
+body {
+    background-color: green;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.container-cover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+}
+
+.score-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    padding: 45px;
+    border-radius: 5px;
+    background-color: gray;
+}
+
+.score_title {
+    font-size: 100px;
+    font-weight: bold;
+    -webkit-text-fill-color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+}
+
+.score_info {
+    font-size: 55px;
+    font-weight: bold;
+    -webkit-text-fill-color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+}
+
+.score_message {
+    font-size: 45px;
+    padding: 10px;
+    border-radius: 2px;
+    -webkit-text-fill-color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 20px;
+}
+
+.yes_button {
+    margin-right: 10px; 
+    border-width: 0px;
+    width: 100px;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    background-color: green;
+    -webkit-text-fill-color: white;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.no_button {
+    margin-left: 10px;
+    border-width: 0px;
+    width: 100px;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    background-color: maroon;
+    -webkit-text-fill-color: white;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.yes_button:hover {
+    background-color: white;
+    -webkit-text-fill-color: green;
+}
+
+.no_button:hover {
+    background-color: white;
+    -webkit-text-fill-color: maroon;
+}
+
+@media only screen and (max-width: 1368px) {
+    body {
+        overflow: visible;
+    }
+}
