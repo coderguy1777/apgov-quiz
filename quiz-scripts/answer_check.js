@@ -31,7 +31,7 @@ function answer_check(id) {
             break;
         case 1:
             alert('Wrong!');
-            localStorage.setItem("score", -1);
+            localStorage.setItem("score", 0);
             open_q_2();
             break;
     }
@@ -47,7 +47,6 @@ function answer_check_2(id) {
             open_q_3();
             break;
         case 1:
-            localStorage.setItem("score", score_val - 1)
             alert('Wrong!');
             open_q_3();
             break;
@@ -64,7 +63,6 @@ function answer_check_3(id) {
             open_q_4();
             break;
         case 1:
-            localStorage.setItem("score", score_val - 1);
             alert('Wrong!');
             open_q_4();
             break;
@@ -81,7 +79,6 @@ function answer_check_4(id) {
             open_q_5();
             break;
         case 1:
-            localStorage.setItem("score", score_val - 1);
             alert('Wrong!');
             open_q_5();
             break;
@@ -98,7 +95,6 @@ function answer_check_5(id) {
             open_q_6();
             break;
         case 1:
-            localStorage.setItem("score", score_val - 1);
             alert('Wrong!');
             open_q_6();
             break;
@@ -115,7 +111,6 @@ function answer_check_6(id) {
             open_results();
             break;
         case 1:
-            localStorage.setItem("score", score_val - 1);
             alert('Wrong!');
             open_results();
             break;

@@ -5,7 +5,7 @@ let button_no = document.getElementById('button-no');
 let button_yes = document.getElementById('button-yes');
 
 function get_score() {
-    score_box.innerHTML = player_score + '&nbsp' + "Points"
+    score_box.innerHTML = player_score + "/6"
     message_to_display();
 }
 
@@ -34,5 +34,5 @@ button_yes.addEventListener('click', () => {
 
 button_no.addEventListener('click', () => {
     alert('Thanks for playing!');
-    window.open('', '_self').close();
+    window.open('https://www.goodfreephotos.com/albums/art-and-illustrations/emotiguy-thumbs-up-guy.png', '_self', false);
 });
