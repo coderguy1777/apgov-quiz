@@ -34,5 +34,5 @@ button_yes.addEventListener('click', () => {
 
 button_no.addEventListener('click', () => {
     alert('Thanks for playing!');
-    window.close();
+    window.open('', '_self').close();
 });
