@@ -1,23 +1,33 @@
+let score = 0;
 function answer_check(id) {
     switch(id) {
         case 0:
             alert('Correct!');
+            score+=1;
+            localStorage.setItem("score", score);
             open_q_2();
             break;
         case 1:
-            alert('Wrong!')
+            alert('Wrong!');
+            score-=1;
+            localStorage.setItem("score", score);
+            console.log(localStorage.getItem("score"));
             open_q_2();
             break;
     }
 }
 
 function answer_check_2(id) {
+    let curr_score = localStorage.getItem("score");
+    let score_val = parseInt(curr_score);
     switch(id) {
         case 0:
+            localStorage.setItem("score", score_val + 1)
             alert('Correct!');
             open_q_3();
             break;
         case 1:
+            localStorage.setItem("score", score_val - 1)
             alert('Wrong!');
             open_q_3();
             break;
