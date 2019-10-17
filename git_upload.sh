@@ -1,5 +1,12 @@
 #!/bin/sh
-git add git_upload.sh index.html q_1.html q_2.html q_3.html q_4.html q_5.html quiz-scripts styles
+NEW_FILES=0
+echo "TYPE ALL FILES TO BE COMMITED"
+read NEW_FILES
+git add $NEW_FILES
+NEW_FOLDERS=0
+echo "TYPE ALL FOLDERS TO BE COMMITED"
+read NEW_FOLDERS
+git add $NEW_FOLDERS
 COMMIT_M=0
 echo "TYPE GIT COMMIT MESSAGE"
 read COMMIT_M
