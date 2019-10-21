@@ -14,7 +14,7 @@ function open_home() {
 }
 
 function message_to_display() {
-    if(player_score <= 2) {
+    if(player_score <= 3) {
         player_msg.innerHTML = "You did poorly, would you like to play again?"
     } 
 
