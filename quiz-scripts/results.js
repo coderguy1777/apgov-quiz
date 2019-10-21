@@ -22,7 +22,7 @@ function message_to_display() {
         player_msg.innerHTML = "Oh dear god you didn't do well, would you like to try again?";
     }
 
-    if(player_score === 3 || player_score > 3) {
+    if(player_score === 4 || player_score > 4) {
         player_msg.innerHTML = "You did great, would you like to play again for fun?";
     }
 }
