@@ -66,6 +66,11 @@ body {
     -webkit-text-fill-color: white;
 }
 
+.option_button:hover {
+    background-color: white;
+    -webkit-text-fill-color: black;
+}
+
 @media screen and (max-width: 1368px) {
     body {
         overflow: visible;
